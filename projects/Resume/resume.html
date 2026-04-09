@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Resume</title>
+<style>
+
+body {
+    font-family: Arial;
+    background: #f3f3f3;
+    padding: 40px;
+}
+.container {
+    max-width: 750px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-color: 3px solid #ccc;
+    border-radius: 10px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    background: #0B1E7A;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.header-text {
+    text-align: left;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h3 {
+    margin-top: 30px;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+ol {
+list-style: none;
+    counter-reset: num;
+    padding-left: 0;
+}
+ol li{
+    counter-increment: num;
+    margin-left: 25px;
+    position:relative;
+}
+ol li::before{
+     content:counter(num) ".";
+     position: absolute;
+     left: -25px;
+     font-weight: bold;
+}
+.info p {
+    text-align: left;
+    margin: 4px 0;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <img src="-6167745377369967154_120.jpg">
+        <div class="header-text">
+            <h1>MARIBEL S. MLALI</h1>
+            <p><b>Home Address:</b> T'boli, South Cotabato</p>
+            <p><b>Email:</b>
+               <a href="mailto:maribelmlali@gmail.com" style="color: #87CEFA;">
+                    maribelmlali@gmail.com
+                </a>
+            </p>
+            <p><b>Facebook Account:</b>
+                <a href="https://www.facebook.com/maribel.mlali.2025" target="_blank" style="color: #87CEFA;">
+                    Visit My Facebook
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <h3>Career Objectives</h3>
+    <ul>
+        <li>To become a professional web developer and create useful websites and applications.</li>
+    </ul>
+
+    <h3>Personal Information</h3>
+    <div class="info">
+        <p><b>Age:</b> 19 years old</p>
+        <p><b>Birthdate:</b> September 14 2006</p>
+        <p><b>Phone Number:</b> 09486720135</p>
+        <p><b>Religion:</b> christ name</p>
+    </div>
+
+    <h3>Skills</h3>
+    <ol>
+        <li>Leadership</li>
+        <li>Problem-Solving</li>
+        <li>Programming</li>
+    </ol>
+   
+    <h3>Educational Background</h3>
+        <p><b>Pre-School:</b> T'boli Elementary School</p>
+        <p><b>Secondary:</b> T'boli National High Schoool </p>
+        <p><b>College:</b> Marvellous College of Technology Inc. </p>
+</div>
+
+</body>
+</html>
